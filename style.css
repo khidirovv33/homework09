@@ -260,6 +260,8 @@ padding: 20px;
 }
 
 .container5{
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -344,4 +346,34 @@ font-weight: 100;
     align-items: center;
     gap: 30px;
     padding-bottom: 30px;
+}
+
+@media(max-width: 600px){
+.box-conter5{
+    display: flex;
+    flex-direction: column;
+}
+.text-cont5 h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+}
+
+.container6{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-finish{
+    width: 30px;
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
 }
